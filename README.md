@@ -50,7 +50,12 @@ Install static via download, clone the repository or use dependency management v
 
 Open a terminal, e.g. termux on android.
 Navigate to your web root folder.
-Install composer, e.g via curl, (command follows!)
+Install composer (https://getcomposer.org/download/), e.g via curl, (command :
+```
+curl -sSL https://getcomposer.org/installer | php
+
+```
+)
 Run:
 ```
 composer require bueltge/marksimple
