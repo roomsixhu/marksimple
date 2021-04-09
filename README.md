@@ -105,6 +105,27 @@ $testee = new Marksimple();
 echo get_class($testee->logger()); //output: Psr\Log\NullLogger
 ```
 
+#### extensions  
+add in head.php for math formula mathjax 
+```
+    <script id="MathJax-script" async
+
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+
+</script>
+
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+
+    <script id="MathJax-script" async
+
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+
+</script>
+
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+
+```
+At this time you have to escape a lot the markdown syntax e.g. the `_` with `\\_` to get math sub.
 ## Kudos
 
 On the way to the goal of my simple parser I use lot of tests, tries on the online Regex testers. Thanks a lot to the authors of this followed two sites, great!
