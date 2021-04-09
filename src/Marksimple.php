@@ -46,6 +46,7 @@ class Marksimple
         'hr' => Rule\HorizontalLine::class,
         'br' => Rule\NewLine::class,
         'p' => Rule\Paragraph::class,
+        'strike' => Rule\Strike::class,
     ];
 
     /**
