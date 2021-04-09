@@ -39,6 +39,7 @@ My class supports currently the follow syntax. But Pull Request are really welco
  * Links, `a` - `[Link Text](Link URL)`
  * Horizontal line, `---`
  * Break, new line, `<br>`
+ * Strike, double tilde `~~` before and after the string.
 
 ## Usage
 
