@@ -69,6 +69,11 @@ See the test directory for an example with two different usages. The test direct
 
 #### Code examples
 
+In php-files inside 
+```
+<?php .... ?>
+```
+
     // Example with four spaces.
     require_once '../vendor/autoload.php';
     use Bueltge\Marksimple\Marksimple;
