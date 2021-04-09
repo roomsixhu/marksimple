@@ -5,19 +5,19 @@
 [![Code Coverage](https://codecov.io/gh/bueltge/marksimple/branch/master/graph/badge.svg)](https://codecov.io/gh/bueltge/marksimple)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/bueltge/marksimple/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/bueltge/marksimple/?branch=master)
 
-A simple Markdown parser, short and only with the rules there I currently need. The function is regex based and it is possible to enhance your custom rules.
+A simple Markdown parser, short and only with the rules that I currently need. The function is regex based and it is possible to enhance your custom rules.
 
 ---
 
-Yes, **I know**, it give a lot of __open projects__ that solve the same goal. However it was fun to write my custom parser, only with the rules there I need, not to much overhead. Yes, also I mean that other packages more solid solid, lof of usages, bot not points enough to learn about regex and markdown. Besides *I know* a regex parser is not the best, fastest way, but also here, _I would to teach me in this context_.
+Yes, **I know**, it gives a lot of __open projects__ that solve the same goal. However it was fun to write my custom parser, only with the rules that I need, Not to much overhead. Yes, also I mean that other packages are more solid, lot of usages, but not points enough to learn about regex and markdown. Besides *I know* a regex parser is not the best, fastest way, but also here, _I would to teach me in this context_.
 
 ## Demo, Tests
 
-The solution is still active in his tests, you find it [here](https://bueltge.de/thueringen-erfahren/). This test of the class is also build as [PWA](https://developers.google.com/web/progressive-web-apps/), Progressive Web App. It was only an fun project for me to understand it on a really simple site how it works. But is important, if you see the directory `test` in this repository here and wounder about so much files there are not in the context of the Markdown parser. If you will check the PWA, use it on your mobile or play with Chrome/WebInspector.
+The solution is still active in his tests, you find it [here](https://bueltge.de/thueringen-erfahren/). This test of the class is also built as [PWA](https://developers.google.com/web/progressive-web-apps/), Progressive Web App. It was only an fun project for me to understand it on a really simple site how it works. But is important, if you see the directory `test` in this repository here and wonder about so much files there are not in the context of the Markdown parser. If you will check the PWA, use it on your mobile or play with Chrome/WebInspector.
 
 ## Active use
 
-The class is simple and I use it for my own documentation, there I write in markdown. Here and there is the result a single oage to help in each day to find the right syntax, hints, background and others. You can see this on this examples:
+The class is simple and I use it for my own documentation, that I write in markdown. Here and there is the result a single oage to help in each day to find the right syntax, hints, background and others. You can see this on this examples:
 
  * [MarkSimple Tests](https://bueltge.de/marksimple/test/)
  * [My Git Notes](https://bueltge.de/git/)
@@ -48,9 +48,20 @@ My class supports currently the follow syntax. But Pull Request are really welco
 
 Install static via download, clone the repository or use dependency management via Composer
 
+Open a terminal, e.g. termux on android.
+Navigate to your web root folder.
+Install composer, e.g via curl, (command follows!)
+Run:
 ```
 composer require bueltge/marksimple
 ```
+
+Fix some missleading ../autoload.php, ( e.g. in test folder
+```
+require_once '../../../../vendor/autoload.php';
+```
+)
+check php errors!
 
 You find the solution and the tests in the [repository on GitHub](https://github.com/bueltge/marksimple).
 
