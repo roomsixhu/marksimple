@@ -125,6 +125,7 @@ add in head.php for math formula mathjax
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 
 ```
+At this time you have to escape a lot the markdown syntax e.g. the `_` with `\\_` to get math sub.
 #### add rules 
 get in the src/rule folder. 
 Create rule from the scratch or use one existent as template and rename it to Newrule.php. 
@@ -135,7 +136,6 @@ Then add your Newrule to marksimple.php line 34 to 48 approx. like
 ```
 newtagname like strike or sim.
 
-At this time you have to escape a lot the markdown syntax e.g. the `_` with `\\_` to get math sub.
 ## Kudos
 
 On the way to the goal of my simple parser I use lot of tests, tries on the online Regex testers. Thanks a lot to the authors of this followed two sites, great!
