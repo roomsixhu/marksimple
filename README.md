@@ -37,8 +37,9 @@ My class supports currently the follow syntax. But Pull Request are really welco
  * Inline Code, `code` - an ``` backtick before and after the code string
  * Code Blocks, `pre` - `    ` (4 spaces) or `	` (tab) in each line or the fenced code blocks by placing triple backticks and optional the language identifier,
  * Links, `a` - `[Link Text](Link URL)`
- * Horizontal line, `---`
+ * Horizontal line, `---` `***`
  * Break, new line, `<br>`
+ * Blockquote, a single one, with double to four `))`, `}}`, `]]`, but unfortunatly not yet `>>`, thoug in the regex.
 
 ## Usage
 
