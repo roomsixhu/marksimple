@@ -39,7 +39,10 @@ My class supports currently the follow syntax. But Pull Request are really welco
  * Links, `a` - `[Link Text](Link URL)`
  * Horizontal line, `---` `***`
  * Break, new line, `<br>`
- * Blockquote, a single one, with double to four `))`, `}}`, `]]`, but unfortunatly not yet `>>`, though in the regex.
+
+
+* Strike, double tilde `~~` before and after the string. 
+ * Blockquote, a single one, with double to four `))`, `}}`, `]]`, but unfortunatly not yet `>>`, though in t
 
 ## Usage
 
@@ -104,6 +107,40 @@ And the default `Logger` is the `NullLogger` it will be created when declaring `
 $testee = new Marksimple();
 echo get_class($testee->logger()); //output: Psr\Log\NullLogger
 ```
+<<<<<<
+
+#### extensions  
+add in head.php for math formula mathjax 
+```
+    <script id="MathJax-script" async
+
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+
+</script>
+
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+
+    <script id="MathJax-script" async
+
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+
+</script>
+
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+
+```
+At this time you have to escape a lot the markdown syntax e.g. the `_` with `\\_` to get math sub.
+#### add rules 
+get in the src/rule folder. 
+Create rule from the scratch or use one existent as template and rename it to Newrule.php. 
+You have to change class to Newrule top in the file (approx. line 6), change regex expression, search for markdown signs in `[...]`, (approx. line 17) and write html rule resp. tags you want to get (approx line 25). 
+Then add your Newrule to marksimple.php line 34 to 48 approx. like 
+```
+ 'newtagname' => Rule\Newrule::class,
+```
+newtagname like strike or sim.
+fix variable number in contents[?] respective capture group in `(...)`
+
 ## ToDos 
 * numbered, and nested lists 
 * cleaned and nestable unnumbered lists 
