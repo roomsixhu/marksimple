@@ -40,7 +40,6 @@ My class supports currently the follow syntax. But Pull Request are really welco
  * Horizontal line, `---` `***`
  * Break, new line, `<br>`
 
-
 * Strike, double tilde `~~` before and after the string. 
  * Blockquote, a single one, with double to four `))`, `}}`, `]]`, but unfortunatly not yet `>>`, though in t
 
@@ -107,7 +106,7 @@ And the default `Logger` is the `NullLogger` it will be created when declaring `
 $testee = new Marksimple();
 echo get_class($testee->logger()); //output: Psr\Log\NullLogger
 ```
-<<<<<<
+
 
 #### extensions  
 add in head.php for math formula mathjax 
@@ -138,8 +137,8 @@ Then add your Newrule to marksimple.php line 34 to 48 approx. like
 ```
  'newtagname' => Rule\Newrule::class,
 ```
-newtagname like strike or sim.
-fix variable number in contents[?] respective capture group in `(...)`
+Newtagname like strike or sim. 
+Fix variable number in contents[?] respective capture group in `(...)`. 
 
 ## ToDos 
 * numbered, and nested lists 
