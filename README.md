@@ -104,7 +104,10 @@ And the default `Logger` is the `NullLogger` it will be created when declaring `
 $testee = new Marksimple();
 echo get_class($testee->logger()); //output: Psr\Log\NullLogger
 ```
-
+## ToDos 
+* numbered, and nested lists 
+* cleaned and nestable unnumbered lists 
+* nestable blockquote, and fix failure on angle brackets `>>` . 
 ## Kudos
 
 On the way to the goal of my simple parser I use lot of tests, tries on the online Regex testers. Thanks a lot to the authors of this followed two sites, great!
