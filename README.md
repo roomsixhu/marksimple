@@ -37,9 +37,12 @@ My class supports currently the follow syntax. But Pull Request are really welco
  * Inline Code, `code` - an ``` backtick before and after the code string
  * Code Blocks, `pre` - `    ` (4 spaces) or `	` (tab) in each line or the fenced code blocks by placing triple backticks and optional the language identifier,
  * Links, `a` - `[Link Text](Link URL)`
- * Horizontal line, `---`
+ * Horizontal line, `---` `***`
  * Break, new line, `<br>`
- * Strike, double tilde `~~` before and after the string.
+
+
+* Strike, double tilde `~~` before and after the string. 
+ * Blockquote, a single one, with double to four `))`, `}}`, `]]`, but unfortunatly not yet `>>`, though in t
 
 ## Usage
 
@@ -104,6 +107,7 @@ And the default `Logger` is the `NullLogger` it will be created when declaring `
 $testee = new Marksimple();
 echo get_class($testee->logger()); //output: Psr\Log\NullLogger
 ```
+<<<<<<
 
 #### extensions  
 add in head.php for math formula mathjax 
@@ -135,7 +139,12 @@ Then add your Newrule to marksimple.php line 34 to 48 approx. like
  'newtagname' => Rule\Newrule::class,
 ```
 newtagname like strike or sim.
+fix variable number in contents[?] respective capture group in `(...)`
 
+## ToDos 
+* numbered, and nested lists 
+* cleaned and nestable unnumbered lists 
+* nestable blockquote, and fix failure on angle brackets `>>` . 
 ## Kudos
 
 On the way to the goal of my simple parser I use lot of tests, tries on the online Regex testers. Thanks a lot to the authors of this followed two sites, great!

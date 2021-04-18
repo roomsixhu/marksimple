@@ -32,6 +32,7 @@ class Marksimple
      * @var array
      */
     protected $defaultRules = [
+        'blockquote' => Rule\Blockquote::class,
         'header' => Rule\Header::class,
         'image' => Rule\Image::class,
         'link' => Rule\Link::class,
