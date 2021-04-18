@@ -41,7 +41,7 @@ My class supports currently the follow syntax. But Pull Request are really welco
  * Break, new line, `<br>`
 
 * Strike, double tilde `~~` before and after the string. 
- * Blockquote, a single one, with double to four `))`, `}}`, `]]`, but unfortunatly not yet `>>`, though in t
+ * Blockquote, a single one, with double to four `))`, `}}`, `]]`, but unfortunatly not yet `>>`, though in the regex.
 
 ## Usage
 
