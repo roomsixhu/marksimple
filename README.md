@@ -39,7 +39,7 @@ My class supports currently the follow syntax. But Pull Request are really welco
  * Links, `a` - `[Link Text](Link URL)`
  * Horizontal line, `---` `***`
  * Break, new line, `<br>`
- * Blockquote, a single one, with double to four `))`, `}}`, `]]`, but unfortunatly not yet `>>`, thoug in the regex.
+ * Blockquote, a single one, with double to four `))`, `}}`, `]]`, but unfortunatly not yet `>>`, though in the regex.
 
 ## Usage
 
