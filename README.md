@@ -142,7 +142,7 @@ Newtagname like strike or sim.
 Fix variable number in contents[?] respective capture group in `(...)`. 
 
 ## ToDos 
-* ~~ numbered,~~ and nested lists   
+* ~~numbered,~~ and nested lists   
 * * ordered list done now, break fixed
 * cleaned and nestable unnumbered lists 
 * nestable blockquote, and fix failure on angle brackets `>>` . https://www.phpliveregex.com/p/A4f
