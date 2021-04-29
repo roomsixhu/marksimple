@@ -39,6 +39,7 @@ class Marksimple
         'strong' => Rule\Strong::class,
         'italic' => Rule\Italic::class,
         'ul' => Rule\UnorderedList::class,
+                'ol' => Rule\OrderedList::class,
         'cleanuplist' => Rule\CleanUpList::class,
         'pre' => Rule\Pre::class,
         'cleanuppre' => Rule\CleanUpPre::class,
