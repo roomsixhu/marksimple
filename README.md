@@ -33,12 +33,13 @@ My class supports currently the follow syntax. But Pull Request are really welco
  * Image, `![](path/to/image.png "Alt text")`
  * Strong, bold text, `strong` - `**` or `__` before and after the string
  * Italic text, `em` - an `*` or `_` before and after the string
- * Unordered list, `ul` - `*` for each line
- * Inline Code, `code` - an ``` backtick before and after the code string
+ * Unordered list, `ul` - `*` for each line  
+ * Unordered list, `ol` 1. , 2. ,3. to some number and `.` (period ) for each line
+* Inline Code, `code` - an ``` backtick before and after the code string
  * Code Blocks, `pre` - `    ` (4 spaces) or `	` (tab) in each line or the fenced code blocks by placing triple backticks and optional the language identifier,
  * Links, `a` - `[Link Text](Link URL)`
  * Horizontal line, `---` `***`
- * Break, new line, `<br>`
+ * Break, new line, `<br>` **fixed now**
 
 * Strike, double tilde `~~` before and after the string. 
  * Blockquote, a single one, with double to four `))`, `}}`, `]]`, but unfortunatly not yet `>>`, though in the regex.
@@ -141,7 +142,8 @@ Newtagname like strike or sim.
 Fix variable number in contents[?] respective capture group in `(...)`. 
 
 ## ToDos 
-* numbered, and nested lists 
+* ~~ numbered,~~ and nested lists   
+* * ordered list done now, break fixed
 * cleaned and nestable unnumbered lists 
 * nestable blockquote, and fix failure on angle brackets `>>` . https://www.phpliveregex.com/p/A4f
 ## Kudos
