@@ -3,28 +3,25 @@ declare(strict_types=1);
 
 namespace Bueltge\Marksimple\Rule;
 
-class NewLine extends AbstractRegexRule
+class OrderedList extends AbstractRegexRule
 {
 
     /**
      * Get the regex rule to identify the content for the callback.
-     * Leave br as new line helper, only on break with html > before.
+     * blockquote via right bracket >.
      *
      * @return string
      */
     public function rule(): string
     {
-       # return '#(?!>).&lt;br&gt;#';
-return '#(?!>).&lt;br&gt;( *\w)#';
-
+        return '#^ *[*\d]+\. +(.*?)$#m';
     }
 
     /**
      * {@inheritdoc}
      */
-    public function render(array $content): string
+    protected function render(array $content): string
     {
-  #      return "\n<br>" . $content[0];
-return "<br/>" . $content[1];
+        return sprintf('<ol><li>%s</li></ol>', trim($content[1]));
     }
 }
