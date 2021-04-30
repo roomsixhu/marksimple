@@ -39,7 +39,7 @@ My class supports currently the follow syntax. But Pull Request are really welco
  * Code Blocks, `pre` - `    ` (4 spaces) or `	` (tab) in each line or the fenced code blocks by placing triple backticks and optional the language identifier,
  * Links, `a` - `[Link Text](Link URL)`
  * Horizontal line, `---` `***`
- * Break, new line, `<br>` **fixed now**
+ * Break, new line, `<br>` **fixed now** or `\\` up to four.
 
 * Strike, double tilde `~~` before and after the string. 
  * Blockquote, a single one, with double to four `))`, `}}`, `]]`, but unfortunatly not yet `>>`, though in the regex.
@@ -145,7 +145,7 @@ Fix variable number in contents[?] respective capture group in `(...)`.
 * ~~numbered,~~ and nested lists   
 * * ordered list done now, break fixed
 * cleaned and nestable unnumbered lists 
-* nestable blockquote, and fix failure on angle brackets `>>` . https://www.phpliveregex.com/p/A4f
+* nestable blockquote, and ~~fix failure on angle brackets `>>`~~ . Fixed with `&gt;` because Mr. Bueltge restricted the `>` .  https://www.phpliveregex.com/p/A4f 
 ## Kudos
 
 On the way to the goal of my simple parser I use lot of tests, tries on the online Regex testers. Thanks a lot to the authors of this followed two sites, great!
