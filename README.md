@@ -42,7 +42,7 @@ My class supports currently the follow syntax. But Pull Request are really welco
  * Break, new line, `<br>` **fixed now** or `\\` befor newline, up to four.
 
 * Strike, double tilde `~~` before and after the string. 
- * Blockquote, a single one, with double to four `))`, `}}`, `]]`, but unfortunatly not yet `>>`, though in the regex.
+ * Blockquote, a single one, with double to four `))`, `}}`, `]]`, ~~but unfortunatly not yet~~ and `>>`, though twice in the regex.
 
 ## Usage
 
