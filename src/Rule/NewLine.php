@@ -15,7 +15,9 @@ class NewLine extends AbstractRegexRule
     public function rule(): string
     {
        # return '#(?!>).&lt;br&gt;#';
-return '#(?!>).&lt;br&gt;( *\w)#';
+# return '#(?!>).(&lt;br&gt;|\\\\&gt;)( *\w)#';
+return '#.(&lt;br&gt;|\\\\\n)( *\w)#';
+
 
     }
 
@@ -25,6 +27,6 @@ return '#(?!>).&lt;br&gt;( *\w)#';
     public function render(array $content): string
     {
   #      return "\n<br>" . $content[0];
-return "<br/>" . $content[1];
+return "<br/>" . $content[2];
     }
 }
