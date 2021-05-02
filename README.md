@@ -27,7 +27,7 @@ The class is simple and I use it for my own documentation, that I write in markd
 
 ## Support
 
-My class supports currently the follow syntax. But Pull Request are really welcome and the solution give you the possibility to add your own rule.
+My class supports currently the following syntax. But Pull Request are really welcome and the solution give you the possibility to add your own rule.
 
  * Headers, `h1` - `h6` - `#` to `######` before the string
  * Image, `![](path/to/image.png "Alt text")`
