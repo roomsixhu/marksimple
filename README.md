@@ -9,7 +9,7 @@ A simple Markdown parser, short and only with the rules that I currently need. T
 
 ---
 
-Yes, **I know**, it gives a lot of __open projects__ that solve the same goal. However it was fun to write my custom parser, only with the rules that I need, Not to much overhead. Yes, also I mean that other packages are more solid, lot of usages, but not points enough to learn about regex and markdown. Besides *I know* a regex parser is not the best, fastest way, but also here, _I would to teach me in this context_.
+Yes, **I know**, it gives a lot of __open projects__ that solve the same goal. However it was fun to write my custom parser, only with the rules that I need, Not to much overhead. Yes, also I mean that other packages are more solid, lot of usages, but there‘s no points to learn enough about regex and markdown. Besides *I know* a regex parser is not the best, fastest way, but also here, _I wanted to teach me in this context_.
 
 ## Demo, Tests
 
