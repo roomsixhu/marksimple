@@ -34,7 +34,7 @@ My class supports currently the following syntax. But Pull Request are really we
  * Strong, bold text, `strong` - `**` or `__` before and after the string
  * Italic text, `em` - an `*` or `_` before and after the string
  * Unordered list, `ul` - `*` for each line  
- * Unordered list, `ol` 1. , 2. ,3. to some number and `.` (period ) for each line
+ * Ordered list, `ol` 1. , 2. ,3. to some number and `.` (period ) for each line
 * Inline Code, `code` - an ``` backtick before and after the code string
  * Code Blocks, `pre` - `    ` (4 spaces) or `	` (tab) in each line or the fenced code blocks by placing triple backticks and optional the language identifier,
  * Links, `a` - `[Link Text](Link URL)`
